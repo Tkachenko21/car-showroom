@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px){
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .servic-child{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .models-row{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 768px){
+    .nav-li a{
+        margin-right: 100px;
+    }
+    .models-row img{
+        max-width: 200px;
+        max-height: 120px;
+        min-height: 120px;
+        min-width: 200px;
+    }
+}
