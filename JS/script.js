@@ -1,8 +1,8 @@
 const arrImgs = [
-    '../ASSETS/IMGbackground/contacktback2',
-    '../ASSETS/IMGbackground/contacktback3',
-    '../ASSETS/IMGbackground/contacktback4',
-    '../ASSETS/IMGbackground/contacktback1'
+    '../img/background/contacktback2',
+    '../img/background/contacktback3',
+    '../img/background/contacktback4',
+    '../img/background/contacktback1'
 ];
 const sectionone = document.querySelector('.section');
 function chargeImg(){

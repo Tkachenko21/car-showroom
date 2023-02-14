@@ -1,4 +1,23 @@
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
+    .nav-li a{
+        margin-right: 100px;
+    }
+    .carousel{
+        height: 60vh;
+    }
+    .carousel .carousel-inner{
+        height:100%;    
+    }
+    .models-row{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .box-models{
+        max-width: 280px;
+        padding-bottom: 50px;
+        align-self: center;
+    }
     .services{
         display: flex;
         flex-direction: column;
@@ -8,19 +27,63 @@
         justify-content: center;
         flex-direction: column;
     }
-    .models-row{
-        display: flex;
-        flex-direction: row;
+    .p-map p{
+        font-size: 24px;
     }
 }
-@media screen and (min-width: 768px){
-    .nav-li a{
-        margin-right: 100px;
+@media screen and (max-width: 576px){
+    .logo{
+        width: 55px;
+        height: 40px;
     }
-    .models-row img{
-        max-width: 200px;
-        max-height: 120px;
-        min-height: 120px;
-        min-width: 200px;
+    .nav-li a{
+        margin-right: 50px;
+        font-size: 16px;
+    }
+    .carousel{
+        height: 50vh;
+    }
+    .aboutthemtext{
+        font-size: 18px;
+    }
+    .row-3{
+        text-align: center;
+    }
+    .row-3 a{    
+        letter-spacing: 2px;
+        margin-right: 40px;
+    }
+    .p-map p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 378px){
+    .logo{
+        width: 35px;
+        height: 20px;
+    }
+    .nav-li a{
+        margin-right: 25px;
+        font-size: 12px;
+    }
+    .carousel{
+        height: 30vh;
+    }
+    .aboutthemtext{
+        font-size: 14px;
+    }
+    .row-3 a{
+        font-size: 14px;    
+        letter-spacing: 2px;
+        margin-right: 15px;
+    }
+    .p-map p{
+        font-size: 14px;
+    }
+    .sectionone{
+        min-height: 60vh;
+    }
+    .h2-contact h2{
+        font-size: 36px;
     }
 }
